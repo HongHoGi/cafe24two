@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+#main .slideOuter .slide {
+    background-image:url(../img/hero02.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    height:655px;
+    position:relative;
+}
+#main .slideOuter .slide .inner {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:#fff;
+}
+#main .slideOuter .slide div > img {
+    width:105px;
+}
+#main .slideOuter .slide div > h2 {
+    font-size:55px;
+    font-weight:700;
+    margin:15px 0 10px;
+}
+#main .slideOuter .slide div > p {
+    font-weight:300;
+}
+
+#main .menu {
+    background:#f8f8f8;
+}
+#main .menu > .inner {
+    padding:40px 0;
+    text-align:center;
+}
+#main .menu .menu0 {
+    float:left;
+    width:23.5%;
+    margin-right:2%;
+    position:relative;
+    background:#000;
+    overflow:hidden;
+}
+#main .menu .menu0 img {
+    width:375px;
+    opacity:0.7;
+    transition:all 0.5s;
+}
+#main .menu .menu0:hover img {
+    transform:scale(1.2);
+}
+#main .menu .menu4 {
+    margin-right:0%;
+}
+#main .menu .menu0 .text_box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#main .menu .menu0 .text_box h3 {
+    color:#fff;
+    font-size:19px;
+    font-weight:500;
+    padding-bottom:16px;
+}
+#main .menu .menu0 .text_box p {
+    color:#cabe9f;
+    font-size:10px;
+    font-weight:500;
+}
