@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+#joinPage {
+    margin-top:45px;
+}
+#joinPage .joinTop {
+    background-image:url(../img/mypage.png);
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    font-size:30px;
+    text-align:center;
+    height:350px;
+    position:relative;
+    margin-bottom:90px;
+}
+#joinPage .joinTop > h2 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#joinPage .joinBox > h3 {
+    text-align:center;
+    font-size:30px;
+    color:#000;
+    padding-bottom:50px;
+}
+.joinWrap {
+    padding-left:130px;
+    margin-bottom:90px;
+}
+.joinWrap legend {
+    display:block;
+    font-size:20px;
+    padding-bottom:10px;
+}
+.joinWrap table {
+    font-size:13px;
+    color:#777;
+    width:900px;
+    height:400px;
+}
+.joinWrap th,
+.joinWrap td {
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:left;
+}
+.joinWrap col:nth-child(1) {
+    width:130px;
+}
+.joinWrap col:nth-child(2) {
+    width:auto;
+}
+.joinWrap input {
+    border:1px solid #555;
+    border-radius:3px;
+    width:150px;
+    height:25px;
+    text-indent:0.5em;
+    background:#f6f6f6;
+}
+.joinWrap #pid + button {
+    background-color:#d7ba9a;
+    color:#fff;
+    font-size:10px;
+    padding:5px 8px;
+    border-radius:3px;
+}
+.joinWrap #pid + button:hover {
+    background:rgba(0,0,0,0.4);
+}
+.joinBox input[type="radio"] {
+    width:20px;
+    height:10px;
+}

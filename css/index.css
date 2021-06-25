@@ -71,3 +71,413 @@
     font-size:10px;
     font-weight:500;
 }
+
+
+#main .content > .inner {
+    margin-top:80px;
+    margin-bottom:110px;
+}
+#main .content h2 {
+    text-align:center;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:35px;
+}
+#main .content .contNav {
+    text-align:center;
+    margin-bottom:60px;
+}
+#main .content .contNav > a {
+    display:inline-block;
+    background:#f8f8f8;
+    color:#3f4448;
+    padding:14px 105px;
+    font-size:13px;
+}
+#main .content .contNav > a:first-child {
+    background:#cabe9f;
+    color:#fff;
+}
+
+#main .content .container .contText {
+    float:left;
+    width:50%;
+    font-size:12px;
+    font-weight:300;
+    color:#777;
+    padding:0 15px;
+}
+#main .content .container .contImg {
+    float:right;
+    width:50%;
+    padding:0 60px;
+}
+#main .content .container .contText > p {
+    line-height:25px;
+    margin-bottom:50px;
+}
+#main .content .container .contText > table {
+    text-align:left;
+    width:450px;
+    height:250px;
+    color:#666;
+}
+#main .content .container tr {
+    border-bottom:0.5px solid #777;
+    line-height:40px;
+}
+#main .content .container tr > th {
+    width:30%;
+    font-weight:700;
+    color:#000;
+}
+#main .content .container tr > td {
+    width:70%;
+}
+#main .content .contImg > img {
+    max-width:100%;
+    height:auto;
+}
+
+
+#main .mainSlide .depth1 {
+    float:left;
+    width:50%;
+    height:550px;
+    overflow:hidden;
+    background-image:url(../img/owl01.png);
+    background-position:center;
+    background-size:cover;
+}
+#main .mainSlide .depth2 {
+    float:right;
+    width:50%;
+    height:550px;
+    background-color:#3f4448;
+    position:relative;
+}
+#main .mainSlide .depth2 > .hong1 {
+    position:absolute;;
+    top:90px;
+    left:150px;
+}
+#main .mainSlide .depth2 > .hong1 > h3 {
+    padding-bottom:5px;
+    color:#cabe9f;
+    font-size:18px;
+    font-weight:400;
+}
+#main .mainSlide .depth2 > .hong1 > .one {
+    padding-bottom:50px;
+    color:#fff;
+    font-size:25px;
+    font-weight:100;
+}
+#main .mainSlide .depth2 > .hong1 > .two {
+    padding-bottom:55px;
+    color:#888;
+    font-size:13px;
+}
+#main .mainSlide .depth2 > .hong1 > a {
+    border:1px solid #cabe9f;
+    color:#cabe9f;
+    padding:10px 40px;
+    font-size:15px;
+    display:inline-block;
+    transition:all 0.4s;
+}
+#main .mainSlide .depth2 > .hong1 > a:hover {
+    color:#3f4448;
+    background:#cabe9f;
+}
+
+#main .mainSlide .depth3 {
+    float:left;
+    width:50%;
+    height:550px;
+    background-color:#f6f6f6;
+    position:relative;
+}
+#main .mainSlide .depth3 > .hong2 {
+    position:absolute;;
+    top:90px;
+    left:150px;
+}
+#main .mainSlide .depth3 > .hong2 > h3 {
+    padding-bottom:5px;
+    color:#cabe9f;
+    font-size:18px;
+    font-weight:400;
+}
+#main .mainSlide .depth3 > .hong2 > .one {
+    padding-bottom:50px;
+    color:#000;
+    font-size:25px;
+    font-weight:100;
+}
+#main .mainSlide .depth3 > .hong2 > .two {
+    padding-bottom:55px;
+    color:#888;
+    font-size:13px;
+}
+#main .mainSlide .depth3 > .hong2 > a {
+    border:1px solid #cabe9f;
+    background:#cabe9f;
+    color:#fff;
+    padding:10px 40px;
+    font-size:15px;
+    display:inline-block;
+}
+#main .mainSlide .depth4 {
+    float:right;
+    width:50%;
+    height:550px;
+    overflow:hidden;
+    background-image:url(../img/owl03.png);
+    background-position:center;
+    background-size:cover;
+}
+
+#main .data {
+    height:220px;
+    text-align:center;
+}
+#main .data > div {
+    position:relative;
+    top:70px;
+    border-right:1px solid #cabe9f;
+}
+#main .data > div > h4 {
+    font-size:32px;
+    padding-bottom:8px;
+    font-weight:400;
+}
+#main .data > div > p {
+    font-size:13px;
+    color:#cabe9f;
+}
+#main .data div:nth-child(1) {
+    float:left;
+    width:24%;
+}
+#main .data div:nth-child(2) {
+    float:left;
+    width:24%;
+}
+#main .data div:nth-child(3) {
+    float:left;
+    width:24%;
+}
+#main .data div:nth-child(4) {
+    float:right;
+    width:24%;
+    border:none;
+}
+
+
+#main .answer {
+    background-image:url(../img/banner-bg.png);
+    background-position:center top;
+    background-size:cover;
+    height:380px;
+    text-align:center;
+    color:#fff;
+}
+#main .answer > .inner {
+    position:relative;
+    top:90px;
+}
+#main .answer > .inner > h4 {
+    font-size:40px;
+    letter-spacing:-0.5px;
+    font-weight:500;
+    padding-bottom:15px;
+}
+#main .answer > .inner > p {
+    font-size:18px;
+    margin-bottom:40px;
+    letter-spacing:-0.5px;
+    font-weight:300 !important ;
+}
+#main .answer > .inner > .hong1 {
+    padding:13px 38px;
+    background:#2f3947;
+    font-size:12px;
+    margin:0 2px;
+    border:1px solid #2f3947;
+    opacity:0.9;
+    transition:all 0.3s;
+}
+#main .answer > .inner > .hong2 {
+    padding:13px 38px;
+    font-size:12px;
+    margin:0 2px;
+    color:#2f3947;
+    border:1px solid #2f3947;
+    opacity:0.9;
+    transition:all 0.3s;
+}
+#main .answer > .inner > .hong1:hover {
+    opacity:1;
+}
+#main .answer > .inner > .hong2:hover {
+    background:#2f3947;
+    color:#fff;
+    opacity:1;
+}
+
+
+#main .solution {
+    height:600px;
+    background:#f8f8f8;
+}
+#main .solution .sol {
+    float:left;
+    width:32%;
+    margin-right:2%;
+    height:200px;
+    position:relative;
+    top:100px;
+    background:#fff;
+}
+#main .solution .sol:hover {
+    background:#3f4448;
+}
+#main .solution .sol:hover h5 {
+    color:#fff;
+}
+#main .solution .sol:nth-child(1),
+#main .solution .sol:nth-child(2),
+#main .solution .sol:nth-child(3) {
+    margin-bottom:20px;
+}
+#main .solution .sol:nth-child(3),
+#main .solution .sol:nth-child(6) {
+    margin-right:0;
+}
+#main .solution .sol > a {
+    display:inline-block;
+}
+#main .solution .sol div {
+    text-align:left;
+    position:relative;
+    top:30px;
+    left:80px;
+}
+#main .solution .sol h5 {
+    font-size:20px;
+    padding-bottom:15px;
+}
+#main .solution .sol p {
+    font-size:12px;
+    line-height:20px;
+    color:gray;
+}
+#main .solution .sol .fas {
+    font-size:35px;
+    position:relative;
+    top:62px;
+    left:22px;
+    color:#cabe9f;
+}
+
+
+#main .information {
+    height:300px;
+    margin-bottom:500px;
+}
+#main .information .inforM {
+    float:left;
+    width:33.333%;
+    text-align:center;
+    position:relative;
+    top:65px;
+}
+#main .information .inforM .fas {
+    border:1px solid #cabe9f;
+    width:110px;
+    height:110px;
+    color:#fff;
+    background:#cabe9f;
+    font-size:35px;
+    padding-top:35px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+#main .information .inforM h6 {
+    font-weight:bold;
+    margin-bottom:5px;
+}
+#main .information .inforM p {
+    color:gray;
+    font-size:18px;
+}
+
+
+#main .project {
+    margin-bottom:80px;
+}
+#main .project h3 {
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    position:relative;
+    padding-bottom:20px;
+}
+#main .project p {
+    font-size:12px;
+    color:gray;
+    text-align:center;
+    padding:30px 0 50px;
+}
+#main .project h3::after {
+    content:'';
+    width:70px;
+    height:0.5px;
+    background:#000;
+    position:absolute;
+    top:100%;
+    left:47%;
+}
+#main .project .projectWrap th {
+    font-size:13px;
+}
+#main .project .projectWrap th,
+#main .project .projectWrap td {
+    border:1px solid #ccc;
+    border-left:none;
+    border-right:none;
+    padding:10px 0;
+}
+#main .project .projectWrap td > .ptel {
+    border:1px solid #ccc;
+    height:40px;
+    width:90px;
+}
+#main .project .projectWrap td > .pfile {
+    border:none;
+}
+#main .project .projectWrap td > textarea {
+    border:1px solid #ccc;
+}
+.projectWrap col:nth-child(1) { width:220px }
+.projectWrap col:nth-child(2) { width:auto }
+.projectWrap button {
+    position:relative;
+    left:500px;
+    margin-top:20px;
+}
+.projectWrap .button1 {
+    border:1px solid #000;
+    background:#000;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:10px 20px;
+}
+.projectWrap .button2 {
+    border:1px solid #000;
+    font-size:12px;
+    font-weight:bold;
+    padding:10px 20px;
+}

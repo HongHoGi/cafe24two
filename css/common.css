@@ -57,3 +57,18 @@ body {
 #header .membership a:hover {
     color:#cabe9f;
 }
+
+
+
+#footer {
+    text-align:center;
+    background-color:#3f4448;
+}
+#footer > p {
+    padding:33px 0;
+    font-size:12px;
+    color:#fff;
+}
+#footer > p > span {
+    color:#777;
+}
